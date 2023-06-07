@@ -37,7 +37,7 @@ first time.
 Note that in one of the first code blocks the notebook triggers PyTorch to open the dataset,
 which is one of the datasets integrated into PyTorch directly.
 If not already done so on the particular Colab runtime, this will also trigger an automatic download
-of the dataset to the runtime. Thus, conveniently, there is no need to point the notebook so some
+of the dataset to the runtime. Thus, conveniently, there is no need to point the notebook to some
 URL or folder in order for it to open the dataset and the contained image files. Also, the download
 happens at most once per Colab runtime connection.
 
