@@ -11,7 +11,7 @@ To open it in Colab, there are basically two options:
 1. If the author has shared a link to the notebook on a Google drive with you, open the notebook
 from there in Google Colaboratory.
 
-1. Otherwise, simply open the [GitHub URL of the notebook](https://github.com/aisven/generative-model-experiment-1/blob/main/notebooks/generative-model-experiment-1-colab.ipynb)
+1. Otherwise, simply open the [GitHub URL of the notebook](https://github.com/aisven/beta-vae-oxford-flowers/blob/main/notebooks/beta-vae-oxford-flowers.ipynb)
 from within Google Colaboratory via the menu entry *File > Open notebook*, tab *GitHub*.
 
 Then, simply choose *Runtime > Run all* from the menu, however, before doing to, take a moment to
