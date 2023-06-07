@@ -71,9 +71,9 @@ The software is implemented using the IDE. @vscode The code is hosted publicly o
 It comes in the form of a Jupyter notebook
 that can most conveniently be ran on Google Colaboratory. @colab
 
-The link to the code hosted on GitHub is:
+The deep-link to the notebook as hosted on GitHub is:
 
-https://github.com/aisven/generative-model-experiment-1
+https://github.com/aisven/beta-vae-oxford-flowers/blob/main/notebooks/beta-vae-oxford-flowers.ipynb
 
 ## Disclaimer regarding the code
 
@@ -123,13 +123,6 @@ This is by no means a perfect pre-processing pipeline. Experts in image processi
 photographers or graphics artists, might even find it to be naive. Yet, in order to reach the
 project goal, the pre-processing helps channeling the data towards images of color, where distinct
 features of flowers nor unwanted artifacts should not play a role.
-
-## The results
-
-Selected generated colorful images can be found in the results directory in the project,
-hosted on GitHub:
-
-https://github.com/aisven/generative-model-experiment-1/results/images
 
 ## Categorization of the Variational Auto-encoder (VAE)
 
@@ -422,4 +415,11 @@ In statistics and data analytics, they can serve as an alternative to more tradi
 such as the principal component analysis (PCA),
 in particular when dealing with high-dimensional data.
 
-# References
+## The results
+
+Selected generated colorful images can be found in the results directory in the project,
+hosted on GitHub:
+
+https://github.com/aisven/beta-vae-oxford-flowers/tree/main/results/images
+
+## References
