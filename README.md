@@ -2,7 +2,23 @@
 
 A project for studying purposes.
 
-### Running the Jupyter notebook on Google Colaboratory
+## Model Architecture
+
+![](diagrams/VAE_Model_Architecture.png)
+
+## Comparison
+
+![](diagrams/VAE_Goals_Ideas_Use_Cases.png)
+
+## Slides
+
+![](diagrams/VAE_Slide_01_Latent_Variables.png)
+
+![](diagrams/VAE_Slide_02_Latent_Space.png)
+
+![](diagrams/VAE_Slide_03_Meaningful_Features.png)
+
+## Running the Jupyter notebook on Google Colaboratory
 
 The easiest way to run the Jupyter notebook is
 to use [Google Colaboratory](https://colab.research.google.com) aka. Colab.
@@ -41,7 +57,7 @@ of the dataset to the runtime. Thus, conveniently, there is no need to point the
 URL or folder in order for it to open the dataset and the contained image files. Also, the download
 happens at most once per Colab runtime connection.
 
-### Running the Jupyter notebook locally instead
+## Running the Jupyter notebook locally instead
 
 Alternatively to running it on Google Colaboratory, the notebook can be ran locally.
 
@@ -72,7 +88,7 @@ Note that in one of the first code blocks the notebook triggers PyTorch to open 
 which is one of the datasets integrated into PyTorch directly. If not already done so,
 this will also trigger an automatic download of the dataset to the local machine.
 
-### Disclaimer regarding the code
+## Disclaimer regarding the code
 
 The code has been written in a relatively verbose free style for studying purposes.
 It is not production-ready and it is not to be regarded as research-related or blog-article code.
@@ -89,3 +105,7 @@ be compatible with open source or proprietary machine learning pipelines (think 
 be integrated with respective tooling to visualize metrics about model performance,
 ship together with benchmarks, examples, cook book or user guide, etc.,
 be optimized to some extend.
+
+# Mindmap
+
+![](diagrams/VAE_Mindmap.jpg)
