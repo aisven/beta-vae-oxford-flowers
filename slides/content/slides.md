@@ -22,7 +22,3 @@ $$ 𝖪𝖫(\mathbb{P}_θ,\mathbb{P}_{θ\prime}) =  \int_Ef_θ(x)\log\left(\frac
 - not a distance
 - a divergence
 - can be statistically estimated (by the law of large numbers via an average)
-
-# KL-divergence between two Gaussian distributions
-
-TODO
