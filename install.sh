@@ -1,7 +1,14 @@
 #!/bin/sh
 
-# install project with dependencies plus dev and test dependencies
-pip install .[dev,test]
+# ensure that the virtual environment
+# exists and is stored in subdirectory .venv
+uv venv .venv
 
-# remove the project itself to resemble a --no-root or --no-project behavior
-pip uninstall -y beta-vae-oxford-flowers
+# activate the virtual environment
+. .venv/bin/activate
+
+# ensure that the dependencies in the virtual environment
+# are aligned with the definitions in pyproject.toml
+# including also dev and test dependencies
+# thereby avoid installing the project itself into the environment
+uv sync --extra dev --extra test --no-install-project

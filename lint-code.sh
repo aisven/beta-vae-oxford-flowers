@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # lint production code
-ruff check beta_vae_oxford_flowers
+uv run ruff check beta_vae_oxford_flowers
 
 # line code in notebook code cells
-ruff check notebooks/*.ipynb
+uv run ruff check notebooks/*.ipynb
