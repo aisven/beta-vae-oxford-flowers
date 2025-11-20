@@ -50,6 +50,10 @@ Repository = "https://github.com/aisven/beta-vae-oxford-flowers"
 packages = ["beta_vae_oxford_flowers"]
 
 
+[tool.setuptools.dynamic]
+version = {attr = "beta_vae_oxford_flowers.__version__"}
+
+
 [tool.black]
 line-length = 160
 target-version = ['py311']
