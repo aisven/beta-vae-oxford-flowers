@@ -179,3 +179,5 @@ dump/
 dump.tar
 
 .DS_Store
+
+datasets/
